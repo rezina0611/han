@@ -153,3 +153,29 @@ function findNumber(arr, target) {
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(findNumber(numbers, 5)); // true
 console.log(findNumber(numbers, 11)); // false
+
+
+
+const arr2=  [1,2,3,4]
+
+
+arr2.push(5)
+// [1,2,3,4,5]
+
+const b = arr2.pop()
+// [1,2,3,4]
+
+
+const arr3 = {
+    0 : 1,
+    1  :2 ,
+    length : 2
+}
+
+let styles = ["jaxx", "Blues"]
+styles.push("Rock-n-Roll");
+
+
+let first = styles.pop();
+styles.push("Rap");
+styles.push("Reggae");
